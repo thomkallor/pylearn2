@@ -13,7 +13,7 @@ import scipy.linalg
 
 from functools import wraps
 from theano import config, scan, tensor
-from theano.compat import six
+import six
 from six.moves import xrange
 
 from pylearn2.compat import OrderedDict

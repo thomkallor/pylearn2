@@ -10,7 +10,7 @@ from collections import defaultdict
 from six.moves import zip as izip_no_length_check
 import numpy as np
 
-from theano.compat import six
+import six
 from theano import tensor as T
 
 from pylearn2.compat import OrderedDict

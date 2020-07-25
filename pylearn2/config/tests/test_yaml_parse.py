@@ -6,7 +6,7 @@ from __future__ import print_function
 
 import os
 import numpy as np
-from theano.compat import six
+import six
 from six.moves import cPickle
 import tempfile
 from numpy.testing import assert_

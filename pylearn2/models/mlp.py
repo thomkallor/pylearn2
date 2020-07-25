@@ -14,7 +14,7 @@ import sys
 import warnings
 
 import numpy as np
-from theano.compat import six
+import six
 from six.moves import reduce, xrange
 from theano import config
 from theano.gof.op import get_debug_values

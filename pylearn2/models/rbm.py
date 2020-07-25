@@ -9,7 +9,7 @@ import logging
 import numpy
 N = numpy
 np = numpy
-from theano.compat import six
+import six
 from six.moves import xrange
 import theano
 from theano import tensor

@@ -16,7 +16,7 @@ control = None
 cuda = None
 
 import numpy as np
-from theano.compat import six
+import six
 
 from functools import partial
 
